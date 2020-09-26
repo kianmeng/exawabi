@@ -6,6 +6,7 @@ defmodule ExAwabi.MixProject do
   def project do
     [
       app: :exawabi,
+      escript: [main_module: ExAwabi.CLI],
       version: @version,
       elixir: "~> 1.9",
       name: "ExAwabi",
